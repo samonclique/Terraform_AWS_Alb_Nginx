@@ -54,6 +54,7 @@ variable "allowed_ips" {
   default     = ["0.0.0.0/0"]
 }
 
+
 # Define the ec2 tag Name
 variable "Name" {
     type    = string
