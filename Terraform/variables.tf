@@ -57,7 +57,7 @@ variable "allowed_ips" {
 
 # Define the ec2 tag Name
 variable "Name" {
-    type    = string
-    description = "The ec2 Name"
-    default = "ec2-Nginx"
+  type        = string
+  description = "The ec2 Name"
+  default     = "ec2-Nginx"
 }
